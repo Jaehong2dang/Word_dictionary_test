@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#F3BED0"
+        android:gravity="center"
+        android:text="2번 화면" />
+
+    <Button
+        android:id="@+id/but2_1"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:text="프랑스어 첫걸음" />
+
+    <Button
+        android:id="@+id/but2_2"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:text="Intro" />
+
+    <Button
+        android:id="@+id/but2_3"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:text="Tendances A1" />
+
+    <Button
+        android:id="@+id/but2_4"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:text="Tendances A2" />
+</LinearLayout>
