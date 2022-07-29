@@ -2,40 +2,62 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@color/white"
+        android:layout_height="180dp"
+        android:background="#F378B4F3"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="#F3BED0"
+        android:textColor="#FFFFFF"
         android:gravity="center"
-        android:text="2번 화면" />
+        android:text="교재별 단어" />
 
-    <Button
-        android:id="@+id/but2_1"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="93dp"
-        android:text="프랑스어 첫걸음" />
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp">
 
-    <Button
-        android:id="@+id/but2_2"
-        android:layout_width="match_parent"
-        android:layout_height="93dp"
-        android:text="Intro" />
+        <Button
+            android:id="@+id/but2_1"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="13dp"
+            app:cornerRadius="15dp"
+            android:text="프랑스어 첫걸음" />
 
-    <Button
-        android:id="@+id/but2_3"
-        android:layout_width="match_parent"
-        android:layout_height="93dp"
-        android:text="Tendances A1" />
+        <Button
+            android:id="@+id/but2_2"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginBottom="13dp"
+            app:cornerRadius="15dp"
+            android:text="Intro" />
 
-    <Button
-        android:id="@+id/but2_4"
-        android:layout_width="match_parent"
-        android:layout_height="93dp"
-        android:text="Tendances A2" />
+        <Button
+            android:id="@+id/but2_3"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginBottom="13dp"
+            app:cornerRadius="15dp"
+            android:text="Tendances A1" />
+
+        <Button
+            android:id="@+id/but2_4"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginBottom="13dp"
+            app:cornerRadius="15dp"
+            android:text="Tendances A2" />
+
+    </LinearLayout>
+
+
 </LinearLayout>

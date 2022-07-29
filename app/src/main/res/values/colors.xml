@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="green_light">#AED581</color>
     <color name="pink_light">#F3BED0</color>
+    <color name="searchview">#E4E4E4</color>
+    <color name="skyblue">#40A4F4</color>
 </resources>
